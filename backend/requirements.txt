@@ -23,8 +23,8 @@ httpx==0.27.0
 pandas==2.2.0
 numpy==1.26.4
 
-# 知识追踪
-pyBKT==1.5.3
+# 知识追踪（可选，如不需要可注释掉）
+# pyBKT==1.4.3
 
 # NLP
 transformers==4.38.2
