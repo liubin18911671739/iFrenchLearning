@@ -1,0 +1,489 @@
+{
+  "topics": [
+    {
+      "id": "topic_salutation",
+      "name": "问候与告别",
+      "level": "A1",
+      "description": "日常问候和告别用语"
+    },
+    {
+      "id": "topic_famille",
+      "name": "家庭",
+      "level": "A1",
+      "description": "家庭成员和关系"
+    },
+    {
+      "id": "topic_nourriture",
+      "name": "食物与饮料",
+      "level": "A1",
+      "description": "常见食物和饮料词汇"
+    },
+    {
+      "id": "topic_couleur",
+      "name": "颜色",
+      "level": "A1",
+      "description": "基本颜色词汇"
+    },
+    {
+      "id": "topic_nombre",
+      "name": "数字",
+      "level": "A1",
+      "description": "基数词和序数词"
+    },
+    {
+      "id": "topic_temps",
+      "name": "时间",
+      "level": "A1",
+      "description": "时间、日期表达"
+    },
+    {
+      "id": "topic_corps",
+      "name": "身体",
+      "level": "A1",
+      "description": "身体部位词汇"
+    },
+    {
+      "id": "topic_vetement",
+      "name": "服装",
+      "level": "A2",
+      "description": "服装和配饰词汇"
+    },
+    {
+      "id": "topic_maison",
+      "name": "房屋",
+      "level": "A2",
+      "description": "房屋结构和家具"
+    },
+    {
+      "id": "topic_transport",
+      "name": "交通",
+      "level": "A2",
+      "description": "交通工具和出行"
+    },
+    {
+      "id": "topic_ville",
+      "name": "城市",
+      "level": "A2",
+      "description": "城市设施和场所"
+    },
+    {
+      "id": "topic_sante",
+      "name": "健康",
+      "level": "A2",
+      "description": "身体状况和医疗"
+    },
+    {
+      "id": "topic_travail",
+      "name": "工作",
+      "level": "B1",
+      "description": "职业和工作场景"
+    },
+    {
+      "id": "topic_loisir",
+      "name": "休闲",
+      "level": "B1",
+      "description": "爱好和娱乐活动"
+    },
+    {
+      "id": "topic_environnement",
+      "name": "环境",
+      "level": "B1",
+      "description": "自然环境和环保"
+    },
+    {
+      "id": "topic_technologie",
+      "name": "科技",
+      "level": "B1",
+      "description": "科技和互联网"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocab_bonjour",
+      "name": "bonjour",
+      "translation": "你好/白天好",
+      "level": "A1",
+      "topic": "topic_salutation",
+      "difficulty": 0.15,
+      "example": "Bonjour, comment allez-vous?",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_merci",
+      "name": "merci",
+      "translation": "谢谢",
+      "level": "A1",
+      "topic": "topic_salutation",
+      "difficulty": 0.1,
+      "example": "Merci beaucoup!",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_svp",
+      "name": "s'il vous plaît",
+      "translation": "请",
+      "level": "A1",
+      "topic": "topic_salutation",
+      "difficulty": 0.2,
+      "example": "Un café, s'il vous plaît.",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_pere",
+      "name": "père",
+      "translation": "父亲",
+      "level": "A1",
+      "topic": "topic_famille",
+      "difficulty": 0.2,
+      "example": "Mon père est médecin.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_mere",
+      "name": "mère",
+      "translation": "母亲",
+      "level": "A1",
+      "topic": "topic_famille",
+      "difficulty": 0.2,
+      "example": "Ma mère cuisine bien.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_frere",
+      "name": "frère",
+      "translation": "兄弟",
+      "level": "A1",
+      "topic": "topic_famille",
+      "difficulty": 0.25,
+      "example": "J'ai un frère et une soeur.",
+      "prerequisites": ["grammar_article_indef"]
+    },
+    {
+      "id": "vocab_soeur",
+      "name": "soeur",
+      "translation": "姐妹",
+      "level": "A1",
+      "topic": "topic_famille",
+      "difficulty": 0.25,
+      "example": "Ma soeur a 20 ans.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_enfant",
+      "name": "enfant",
+      "translation": "孩子",
+      "level": "A1",
+      "topic": "topic_famille",
+      "difficulty": 0.2,
+      "example": "L'enfant joue dans le jardin.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_eau",
+      "name": "eau",
+      "translation": "水",
+      "level": "A1",
+      "topic": "topic_nourriture",
+      "difficulty": 0.15,
+      "example": "Je voudrais un verre d'eau.",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_pain",
+      "name": "pain",
+      "translation": "面包",
+      "level": "A1",
+      "topic": "topic_nourriture",
+      "difficulty": 0.2,
+      "example": "Je mange du pain au petit-déjeuner.",
+      "prerequisites": ["grammar_article_partitif"]
+    },
+    {
+      "id": "vocab_fromage",
+      "name": "fromage",
+      "translation": "奶酪",
+      "level": "A1",
+      "topic": "topic_nourriture",
+      "difficulty": 0.25,
+      "example": "Le fromage français est délicieux.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_cafe",
+      "name": "café",
+      "translation": "咖啡",
+      "level": "A1",
+      "topic": "topic_nourriture",
+      "difficulty": 0.15,
+      "example": "Je prends un café.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_rouge",
+      "name": "rouge",
+      "translation": "红色",
+      "level": "A1",
+      "topic": "topic_couleur",
+      "difficulty": 0.2,
+      "example": "La pomme est rouge.",
+      "prerequisites": ["grammar_adjective_agreement"]
+    },
+    {
+      "id": "vocab_bleu",
+      "name": "bleu",
+      "translation": "蓝色",
+      "level": "A1",
+      "topic": "topic_couleur",
+      "difficulty": 0.2,
+      "example": "Le ciel est bleu.",
+      "prerequisites": ["grammar_adjective_agreement"]
+    },
+    {
+      "id": "vocab_vert",
+      "name": "vert",
+      "translation": "绿色",
+      "level": "A1",
+      "topic": "topic_couleur",
+      "difficulty": 0.2,
+      "example": "L'herbe est verte.",
+      "prerequisites": ["grammar_adjective_agreement"]
+    },
+    {
+      "id": "vocab_un",
+      "name": "un/une",
+      "translation": "一",
+      "level": "A1",
+      "topic": "topic_nombre",
+      "difficulty": 0.1,
+      "example": "J'ai un chat.",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_deux",
+      "name": "deux",
+      "translation": "二",
+      "level": "A1",
+      "topic": "topic_nombre",
+      "difficulty": 0.1,
+      "example": "J'ai deux frères.",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_trois",
+      "name": "trois",
+      "translation": "三",
+      "level": "A1",
+      "topic": "topic_nombre",
+      "difficulty": 0.1,
+      "example": "Il y trois personnes.",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_maintenant",
+      "name": "maintenant",
+      "translation": "现在",
+      "level": "A1",
+      "topic": "topic_temps",
+      "difficulty": 0.25,
+      "example": "Je suis occupé maintenant.",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_demain",
+      "name": "demain",
+      "translation": "明天",
+      "level": "A1",
+      "topic": "topic_temps",
+      "difficulty": 0.2,
+      "example": "On se voit demain!",
+      "prerequisites": []
+    },
+    {
+      "id": "vocab_hier",
+      "name": "hier",
+      "translation": "昨天",
+      "level": "A1",
+      "topic": "topic_temps",
+      "difficulty": 0.2,
+      "example": "J'ai vu un film hier.",
+      "prerequisites": ["grammar_prt_passe_compose"]
+    },
+    {
+      "id": "vocab_tete",
+      "name": "tête",
+      "translation": "头",
+      "level": "A1",
+      "topic": "topic_corps",
+      "difficulty": 0.2,
+      "example": "J'ai mal à la tête.",
+      "prerequisites": ["grammar_prep_place"]
+    },
+    {
+      "id": "vocab_main",
+      "name": "main",
+      "translation": "手",
+      "level": "A1",
+      "topic": "topic_corps",
+      "difficulty": 0.2,
+      "example": "Lave-toi les mains.",
+      "prerequisites": ["grammar_pronominal"]
+    },
+    {
+      "id": "vocab_robe",
+      "name": "robe",
+      "translation": "连衣裙",
+      "level": "A2",
+      "topic": "topic_vetement",
+      "difficulty": 0.25,
+      "example": "Elle porte une robe rouge.",
+      "prerequisites": ["grammar_article_indef", "grammar_adjective_position"]
+    },
+    {
+      "id": "vocab_pantalon",
+      "name": "pantalon",
+      "translation": "裤子",
+      "level": "A2",
+      "topic": "topic_vetement",
+      "difficulty": 0.25,
+      "example": "Il porte un pantalon noir.",
+      "prerequisites": ["grammar_article_indef"]
+    },
+    {
+      "id": "vocab_chambre",
+      "name": "chambre",
+      "translation": "卧室",
+      "level": "A2",
+      "topic": "topic_maison",
+      "difficulty": 0.25,
+      "example": "Ma chambre est grande.",
+      "prerequisites": ["grammar_article_def", "grammar_adjective_agreement"]
+    },
+    {
+      "id": "vocab_cuisine",
+      "name": "cuisine",
+      "translation": "厨房",
+      "level": "A2",
+      "topic": "topic_maison",
+      "difficulty": 0.25,
+      "example": "Je cuisine dans la cuisine.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_voiture",
+      "name": "voiture",
+      "translation": "汽车",
+      "level": "A2",
+      "topic": "topic_transport",
+      "difficulty": 0.2,
+      "example": "Je conduis une voiture.",
+      "prerequisites": ["grammar_article_indef"]
+    },
+    {
+      "id": "vocab_metro",
+      "name": "métro",
+      "translation": "地铁",
+      "level": "A2",
+      "topic": "topic_transport",
+      "difficulty": 0.25,
+      "example": "Je prends le métro.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_hopital",
+      "name": "hôpital",
+      "translation": "医院",
+      "level": "A2",
+      "topic": "topic_sante",
+      "difficulty": 0.3,
+      "example": "Il est à l'hôpital.",
+      "prerequisites": ["grammar_prep_place"]
+    },
+    {
+      "id": "vocab_medecin",
+      "name": "médecin",
+      "translation": "医生",
+      "level": "A2",
+      "topic": "topic_sante",
+      "difficulty": 0.3,
+      "example": "Je vais voir le médecin.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_bureau",
+      "name": "bureau",
+      "translation": "办公室/办公桌",
+      "level": "B1",
+      "topic": "topic_travail",
+      "difficulty": 0.3,
+      "example": "Je travaille au bureau.",
+      "prerequisites": ["grammar_prep_place"]
+    },
+    {
+      "id": "vocab_reunion",
+      "name": "réunion",
+      "translation": "会议",
+      "level": "B1",
+      "topic": "topic_travail",
+      "difficulty": 0.35,
+      "example": "J'ai une réunion à 10h.",
+      "prerequisites": ["grammar_article_indef"]
+    },
+    {
+      "id": "vocab_musique",
+      "name": "musique",
+      "translation": "音乐",
+      "level": "B1",
+      "topic": "topic_loisir",
+      "difficulty": 0.25,
+      "example": "J'écoute de la musique.",
+      "prerequisites": ["grammar_article_partitif"]
+    },
+    {
+      "id": "vocab_cinema",
+      "name": "cinéma",
+      "translation": "电影院",
+      "level": "B1",
+      "topic": "topic_loisir",
+      "difficulty": 0.25,
+      "example": "J'adore aller au cinéma.",
+      "prerequisites": ["grammar_prep_place"]
+    },
+    {
+      "id": "vocab_nature",
+      "name": "nature",
+      "translation": "自然",
+      "level": "B1",
+      "topic": "topic_environnement",
+      "difficulty": 0.3,
+      "example": "La nature est belle.",
+      "prerequisites": ["grammar_article_def"]
+    },
+    {
+      "id": "vocab_ordi",
+      "name": "ordinateur",
+      "translation": "电脑",
+      "level": "B1",
+      "topic": "topic_technologie",
+      "difficulty": 0.35,
+      "example": "Je travaille sur mon ordinateur.",
+      "prerequisites": ["grammar_prep_place"]
+    }
+  ],
+  "topics_vocabulary": [
+    {"topic": "topic_salutation", "vocabulary": ["vocab_bonjour", "vocab_merci", "vocab_svp"]},
+    {"topic": "topic_famille", "vocabulary": ["vocab_pere", "vocab_mere", "vocab_frere", "vocab_soeur", "vocab_enfant"]},
+    {"topic": "topic_nourriture", "vocabulary": ["vocab_eau", "vocab_pain", "vocab_fromage", "vocab_cafe"]},
+    {"topic": "topic_couleur", "vocabulary": ["vocab_rouge", "vocab_bleu", "vocab_vert"]},
+    {"topic": "topic_nombre", "vocabulary": ["vocab_un", "vocab_deux", "vocab_trois"]},
+    {"topic": "topic_temps", "vocabulary": ["vocab_maintenant", "vocab_demain", "vocab_hier"]},
+    {"topic": "topic_corps", "vocabulary": ["vocab_tete", "vocab_main"]},
+    {"topic": "topic_vetement", "vocabulary": ["vocab_robe", "vocab_pantalon"]},
+    {"topic": "topic_maison", "vocabulary": ["vocab_chambre", "vocab_cuisine"]},
+    {"topic": "topic_transport", "vocabulary": ["vocab_voiture", "vocab_metro"]},
+    {"topic": "topic_sante", "vocabulary": ["vocab_hopital", "vocab_medecin"]},
+    {"topic": "topic_travail", "vocabulary": ["vocab_bureau", "vocab_reunion"]},
+    {"topic": "topic_loisir", "vocabulary": ["vocab_musique", "vocab_cinema"]},
+    {"topic": "topic_environnement", "vocabulary": ["vocab_nature"]},
+    {"topic": "topic_technologie", "vocabulary": ["vocab_ordi"]}
+  ]
+}

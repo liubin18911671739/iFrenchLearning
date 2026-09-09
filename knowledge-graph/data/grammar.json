@@ -1,0 +1,334 @@
+{
+  "knowledge_points": [
+    {
+      "id": "grammar_noun_gender",
+      "name": "名词的性",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "noun",
+      "description": "法语名词分为阳性和阴性，需要记忆",
+      "difficulty": 0.3,
+      "prerequisites": []
+    },
+    {
+      "id": "grammar_article_def",
+      "name": "定冠词",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "article",
+      "description": "le, la, les 的用法",
+      "difficulty": 0.25,
+      "prerequisites": ["grammar_noun_gender"]
+    },
+    {
+      "id": "grammar_article_indef",
+      "name": "不定冠词",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "article",
+      "description": "un, une, des 的用法",
+      "difficulty": 0.25,
+      "prerequisites": ["grammar_noun_gender"]
+    },
+    {
+      "id": "grammar_prt_now",
+      "name": "直陈式现在时",
+      "level": "A1",
+      "category": "verb_conjugation",
+      "subcategory": "indicatif_present",
+      "description": "法语动词现在时变位规则",
+      "difficulty": 0.35,
+      "prerequisites": ["grammar_noun_gender"]
+    },
+    {
+      "id": "grammar_prt_passe_compose",
+      "name": "复合过去时",
+      "level": "A1",
+      "category": "verb_conjugation",
+      "subcategory": "passe_compose",
+      "description": "使用avoir/être作为助动词的过去时态",
+      "difficulty": 0.45,
+      "prerequisites": ["grammar_prt_now", "grammar_auxiliaire"]
+    },
+    {
+      "id": "grammar_auxiliaire",
+      "name": "助动词 avoir/être",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "auxiliaire",
+      "description": "复合时态中使用的助动词",
+      "difficulty": 0.4,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_prt_imparfait",
+      "name": "未完成过去时",
+      "level": "A2",
+      "category": "verb_conjugation",
+      "subcategory": "imparfait",
+      "description": "描述过去状态和习惯的时态",
+      "difficulty": 0.5,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_prt_futur_simple",
+      "name": "简单将来时",
+      "level": "A2",
+      "category": "verb_conjugation",
+      "subcategory": "futur_simple",
+      "description": "表示将来动作的时态",
+      "difficulty": 0.45,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_pronominal",
+      "name": "代词式动词",
+      "level": "A2",
+      "category": "grammar",
+      "subcategory": "pronominal",
+      "description": "自反代词 me, te, se 等的用法",
+      "difficulty": 0.5,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_conditionnel",
+      "name": "条件式",
+      "level": "B1",
+      "category": "verb_conjugation",
+      "subcategory": "conditionnel",
+      "description": "表示可能、假设、礼貌的语式",
+      "difficulty": 0.6,
+      "prerequisites": ["grammar_prt_futur_simple", "grammar_prt_imparfait"]
+    },
+    {
+      "id": "grammar_subjonctif",
+      "name": "虚拟式",
+      "level": "B1",
+      "category": "verb_conjugation",
+      "subcategory": "subjonctif",
+      "description": "表示主观、情感、愿望的语式",
+      "difficulty": 0.7,
+      "prerequisites": ["grammar_prt_imparfait"]
+    },
+    {
+      "id": "grammar_accord_pp",
+      "name": "过去分词配合",
+      "level": "A2",
+      "category": "accord",
+      "subcategory": "participe_passe",
+      "description": "过去分词与主语或直接宾语的性数配合",
+      "difficulty": 0.55,
+      "prerequisites": ["grammar_prt_passe_compose", "grammar_noun_gender"]
+    },
+    {
+      "id": "grammar_negation",
+      "name": "否定结构",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "negation",
+      "description": "ne...pas, ne...jamais 等否定结构",
+      "difficulty": 0.3,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_question",
+      "name": "疑问句",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "question",
+      "description": "语调提问、est-ce que、倒装提问",
+      "difficulty": 0.35,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_adjective_agreement",
+      "name": "形容词配合",
+      "level": "A1",
+      "category": "accord",
+      "subcategory": "adjectif",
+      "description": "形容词与名词的性数配合",
+      "difficulty": 0.4,
+      "prerequisites": ["grammar_noun_gender"]
+    },
+    {
+      "id": "grammar_adjective_position",
+      "name": "形容词位置",
+      "level": "A2",
+      "category": "grammar",
+      "subcategory": "adjectif",
+      "description": "形容词在名词前后的规则",
+      "difficulty": 0.35,
+      "prerequisites": ["grammar_adjective_agreement"]
+    },
+    {
+      "id": "grammar_comparatif",
+      "name": "比较级",
+      "level": "A2",
+      "category": "grammar",
+      "subcategory": "comparatif",
+      "description": "plus...que, moins...que, aussi...que",
+      "difficulty": 0.45,
+      "prerequisites": ["grammar_adjective_agreement"]
+    },
+    {
+      "id": "grammar_pronom_tonique",
+      "name": "重读人称代词",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "pronom",
+      "description": "moi, toi, lui, elle 等的用法",
+      "difficulty": 0.3,
+      "prerequisites": []
+    },
+    {
+      "id": "grammar_pronom_atonique",
+      "name": "非重读人称代词",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "pronom",
+      "description": "me, te, le, la 等宾语代词",
+      "difficulty": 0.4,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_pronom_demonstratif",
+      "name": "指示代词",
+      "level": "A2",
+      "category": "grammar",
+      "subcategory": "pronom",
+      "description": "ce, cet, cette, ces 及代词形式",
+      "difficulty": 0.35,
+      "prerequisites": ["grammar_noun_gender"]
+    },
+    {
+      "id": "grammar_pronom_possessif",
+      "name": "主有代词",
+      "level": "A2",
+      "category": "grammar",
+      "subcategory": "pronom",
+      "description": "mon, ma, mes 等主有形容词",
+      "difficulty": 0.35,
+      "prerequisites": ["grammar_noun_gender"]
+    },
+    {
+      "id": "grammar_prep_place",
+      "name": "地点介词",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "preposition",
+      "description": "à, dans, sur, sous 等地点介词",
+      "difficulty": 0.3,
+      "prerequisites": []
+    },
+    {
+      "id": "grammar_prep_time",
+      "name": "时间介词",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "preposition",
+      "description": "à, pendant, depuis, pour 等时间介词",
+      "difficulty": 0.35,
+      "prerequisites": []
+    },
+    {
+      "id": "grammar_conjonction",
+      "name": "连词",
+      "level": "A2",
+      "category": "grammar",
+      "subcategory": "conjonction",
+      "description": "et, ou, mais, car, donc 等连词",
+      "difficulty": 0.3,
+      "prerequisites": []
+    },
+    {
+      "id": "grammar_relatif",
+      "name": "关系代词",
+      "level": "B1",
+      "category": "grammar",
+      "subcategory": "pronom",
+      "description": "qui, que, où, dont 的用法",
+      "difficulty": 0.55,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_infinitif",
+      "name": "不定式",
+      "level": "A1",
+      "category": "grammar",
+      "subcategory": "infinitif",
+      "description": "动词原形的使用场景",
+      "difficulty": 0.25,
+      "prerequisites": []
+    },
+    {
+      "id": "grammar_participe",
+      "name": "分词",
+      "level": "A2",
+      "category": "grammar",
+      "subcategory": "participe",
+      "description": "现在分词和过去分词的用法",
+      "difficulty": 0.5,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_impératif",
+      "name": "命令式",
+      "level": "A2",
+      "category": "verb_conjugation",
+      "subcategory": "imperatif",
+      "description": "表示命令、请求的语式",
+      "difficulty": 0.4,
+      "prerequisites": ["grammar_prt_now"]
+    },
+    {
+      "id": "grammar_voix_active_passive",
+      "name": "主动态与被动态",
+      "level": "B1",
+      "category": "grammar",
+      "subcategory": "voix",
+      "description": "主动语态和被动语态的转换",
+      "difficulty": 0.6,
+      "prerequisites": ["grammar_prt_passe_compose"]
+    },
+    {
+      "id": "grammar_discours_indirect",
+      "name": "间接引语",
+      "level": "B1",
+      "category": "grammar",
+      "subcategory": "discours",
+      "description": "间接引语的时态配合和代词变化",
+      "difficulty": 0.65,
+      "prerequisites": ["grammar_pronom_atonique", "grammar_conditionnel"]
+    }
+  ],
+  "prerequisites": [
+    {"source": "grammar_noun_gender", "target": "grammar_article_def", "weight": 0.9, "mandatory": true},
+    {"source": "grammar_noun_gender", "target": "grammar_article_indef", "weight": 0.9, "mandatory": true},
+    {"source": "grammar_noun_gender", "target": "grammar_prt_now", "weight": 0.5, "mandatory": false},
+    {"source": "grammar_prt_now", "target": "grammar_prt_passe_compose", "weight": 0.8, "mandatory": true},
+    {"source": "grammar_auxiliaire", "target": "grammar_prt_passe_compose", "weight": 0.9, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_auxiliaire", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_prt_imparfait", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_prt_futur_simple", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_pronominal", "weight": 0.6, "mandatory": true},
+    {"source": "grammar_prt_futur_simple", "target": "grammar_conditionnel", "weight": 0.8, "mandatory": true},
+    {"source": "grammar_prt_imparfait", "target": "grammar_conditionnel", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_prt_imparfait", "target": "grammar_subjonctif", "weight": 0.8, "mandatory": true},
+    {"source": "grammar_prt_passe_compose", "target": "grammar_accord_pp", "weight": 0.9, "mandatory": true},
+    {"source": "grammar_noun_gender", "target": "grammar_accord_pp", "weight": 0.8, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_negation", "weight": 0.6, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_question", "weight": 0.6, "mandatory": true},
+    {"source": "grammar_noun_gender", "target": "grammar_adjective_agreement", "weight": 0.9, "mandatory": true},
+    {"source": "grammar_adjective_agreement", "target": "grammar_adjective_position", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_adjective_agreement", "target": "grammar_comparatif", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_pronom_atonique", "weight": 0.6, "mandatory": true},
+    {"source": "grammar_noun_gender", "target": "grammar_pronom_demonstratif", "weight": 0.6, "mandatory": true},
+    {"source": "grammar_noun_gender", "target": "grammar_pronom_possessif", "weight": 0.6, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_relatif", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_participe", "weight": 0.6, "mandatory": true},
+    {"source": "grammar_prt_now", "target": "grammar_impératif", "weight": 0.5, "mandatory": true},
+    {"source": "grammar_prt_passe_compose", "target": "grammar_voix_active_passive", "weight": 0.8, "mandatory": true},
+    {"source": "grammar_pronom_atonique", "target": "grammar_discours_indirect", "weight": 0.7, "mandatory": true},
+    {"source": "grammar_conditionnel", "target": "grammar_discours_indirect", "weight": 0.8, "mandatory": true}
+  ]
+}
